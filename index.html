@@ -6,20 +6,42 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
    <style>
-      [class]{
+      [class~="test-h"]{
          color: red;
+      }
+      [class="test"]{
+         color: green;
+      }
+      input[type]{
+         margin-bottom: 1rem;
       }
    </style>
 </head>
 <body>
-   <p class="test-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, sunt.</p>
-   <p class="test-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, sunt.</p>
-   <p class="test-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, sunt.</p>
-   <p class="test-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, sunt.</p>
+   <div>
+      <p class="test-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, sunt.</p>
+      <p class="test-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, sunt.</p>
+      <p class="test-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, sunt.</p>
+      <p class="test-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, sunt.</p>
 
-   <h1 class="test-h">resrtrs</h1>
-   <h1 class="test-h">resrtrs</h1>
-   <h1 class="test-h">resrtrs</h1>
-   <h1 class="test-h">resrtrs</h1>
+      <h1 class="test-h">resrtrs</h1>
+      <h1 class="test-h new-st">resrtrs</h1>
+      <h1 class="test-h new-st1">resrtrs</h1>
+      <h1 class="test-h new-st2">resrtrs</h1>
+   </div>
+
+   <form action="">
+      <div>
+         <label>email</label><br>
+         <input type="text" name="login">
+      </div>
+      <div>
+         <labl>password</labl><br>
+         <input type="password" name="password">
+      </div>
+      <div>
+         <input type="submit" name="btn">
+      </div>
+   </form>
 </body>
 </html>
